@@ -1,6 +1,33 @@
-body 
+body
 {
-    background-color: lavender;
+    margin: 0px;
+}
+
+header
+{
+    background-color: #663009;
+    padding: 20px;
+}
+
+.menu
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    color: #EA975B;
+}
+
+.menu h1
+{
+    font-size: 2.5em;
+    margin: 15px 5px;
+    text-shadow: 4px 1px 4px #E66C14;
+    font-family: Enriqueta, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .menu li
@@ -8,7 +35,25 @@ body
     display: inline;
 }
 
+.menu li a
+{
+    text-decoration: none;
+    color: #EA975B;
+    font-size: 1.5em;
+    margin-right: 1%;
+}
+
 form
 {
+    width: 40%;
     border: 1px solid slategray;
 }
+
+/*
+    Paleta colores
+    #E66C14
+    #663009
+    #EA975B
+    #664228
+    #B35410
+*/
