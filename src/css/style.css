@@ -3,6 +3,11 @@ body
     background-color: lavender;
 }
 
+.menu li
+{
+    display: inline;
+}
+
 form
 {
     border: 1px solid slategray;
