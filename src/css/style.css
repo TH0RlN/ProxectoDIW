@@ -11,11 +11,12 @@ h2, form
 header
 {
     position: sticky;
+    top: 0px;
     margin: 0px;
     background-color: #663009;
     padding: 20px;
 }
-
+/**/
 .menu
 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -37,6 +38,7 @@ header
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+
 .menu li
 {
     display: inline;
@@ -48,6 +50,12 @@ header
     color: #EA975B;
     font-size: 1.5em;
     margin-right: 1%;
+    padding: .2em;
+}
+
+.menu#selected a
+{
+    color: #f8e0c0;
 }
 
 fieldset
@@ -74,4 +82,5 @@ form
     #EA975B
     #664228
     #B35410
+    #F8E0C0
 */
