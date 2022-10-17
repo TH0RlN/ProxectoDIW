@@ -1,10 +1,17 @@
-body
+html, body, header, footer
 {
     margin: 0px;
 }
 
+h2, form
+{
+    margin: 1em;
+}
+
 header
 {
+    position: sticky;
+    margin: 0px;
     background-color: #663009;
     padding: 20px;
 }
@@ -27,7 +34,7 @@ header
     font-size: 2.5em;
     margin: 15px 5px;
     text-shadow: 4px 1px 4px #E66C14;
-    font-family: Enriqueta, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .menu li
@@ -43,10 +50,21 @@ header
     margin-right: 1%;
 }
 
+fieldset
+{
+    width: 45%;
+}
+
+td label
+{
+    text-align: justify;
+    
+}
+
 form
 {
-    width: 40%;
-    border: 1px solid slategray;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*

@@ -24,25 +24,44 @@
     <body>
         
         <h2>Reservas</h2>
-        <form action="*.php" method="post">
-            <table cellspacing="2" cellpadding="5">
-                <tr>
-                    <td><label for="nombre">Nombre: </label></td>
-                    <td><input type="text" name="nombre" id="nombre"></td>
-                </tr>
-                <tr>
-                    <td><label for="apellido">Apellido/s: </label></td>
-                    <td><input type="text" name="apellido" id="apellido"></td>
-                </tr>
-                <tr>
-                    <td><label for="email">Email: </label></td>
-                    <td><input type="text" name="email" id="email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"></td>
-                </tr>
-                <tr>
-                    <td><input type="reset" value="Limpiar"></td>
-                    <td><input type="submit" value="Enviar"></td>
-                </tr>
-            </table>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <table cellspacing="2" cellpadding="5">
+                    <tr>
+                        <td><label for="nombre">Nombre: </label></td>
+                        <td><input type="text" name="nombre" id="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido">Apellido/s: </label></td>
+                        <td><input type="text" name="apellido" id="apellido"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email: </label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telf">Teléfono: </label></td>
+                        <td><input type="tel" name="telf" id="telf" pattern="[0-9]{9}"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Enviar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Habitación</legend>
+                <table cellspacing="2" cellpadding="5">
+                    <tr>
+                        <td><label for="edate">Fecha entrada: </label></td>
+                        <td><input type="date" name="edate" id="edate"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sdate">Fecha salida: </label></td>
+                        <td><input type="date" name="sdate" id="sdate"></td>
+                    </tr>
+                </table>
+            </fieldset>
         </form>
     </body>
 </html>
