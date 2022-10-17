@@ -1,6 +1,8 @@
 html, body, header, footer
 {
     margin: 0px;
+    background-color: #faefe1;
+    white-space: nowrap;
 }
 
 h2, form
@@ -73,6 +75,17 @@ form
 {
     display: flex;
     flex-wrap: wrap;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
 }
 
 /*
