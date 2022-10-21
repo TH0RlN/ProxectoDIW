@@ -33,6 +33,7 @@ header
     text-transform: none;
     color: #EA975B;
     position: sticky;
+    
 }
 
 .menu h1
@@ -46,7 +47,9 @@ header
 
 .menu li
 {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .menu li a
@@ -100,7 +103,7 @@ input[type=number]::-webkit-outer-spin-button
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     margin: 1%;
 }
 
