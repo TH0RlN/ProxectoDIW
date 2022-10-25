@@ -76,32 +76,15 @@ header
     color: #f8e0c0;
 }
 
-fieldset
-{
-    width: 45%;
-}
-
 td label
 {
     text-align: justify;
     
 }
 
-form
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 ::-webkit-scrollbar
 {
     display: none;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button
-{
-    -webkit-appearance: none;
 }
 
 .galeria
