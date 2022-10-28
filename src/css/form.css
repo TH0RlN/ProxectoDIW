@@ -15,10 +15,44 @@
   }
 }
 
+form
+{
+  border: #B35410 solid 2px;
+}
+
 .form
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+input
+{
+  border: none;
+  background-color: transparent;
+}
+
+table
+{
+  border-spacing: 0px;
+  width: 100%;
+}
+
+tr
+{
+  width: 100%;
+}
+
+tr:hover
+{
+  background-color: #B35410;
+}
+
+input:focus
+{
+  outline: none;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -27,7 +61,24 @@ input[type=number]::-webkit-outer-spin-button
     -webkit-appearance: none;
 }
 
+input[type=submit]
+{
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+input[type=submit]:hover
+{
+  background-color: #B35410;
+}
+
+
 fieldset
 {
-    width: 45%;
+  width: 49%;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+
 }
