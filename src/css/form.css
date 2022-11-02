@@ -41,7 +41,6 @@ tr:hover
 {
   animation-duration: 1000ms;
   animation-name: hover-color;
-  background-color: #B35410;
 }
 
 @keyframes hover-color
