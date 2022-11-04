@@ -8,7 +8,8 @@
 
 form
 {
-  border: #B35410 solid 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px 4px rgba(97,66,44,0.10);
   grid-column: 2;
 }
 
@@ -20,7 +21,7 @@ form
     padding: 0px;
 }
 
-input
+input, select
 {
   border: none;
   background-color: transparent;
@@ -28,36 +29,85 @@ input
 
 table
 {
+  background-color: transparent;
   border-spacing: 0px;
-  width: 100%;
-}
-
-tr
-{
   width: 100%;
 }
 
 tr:hover
 {
-  animation-duration: 1000ms;
+  animation-duration: 500ms;
   animation-name: hover-color;
+  background-color: #61422cd0;
+  color: #faefe1;
+}
+
+tr:hover input, tr:hover select
+{
+  color: #faefe1;
+}
+
+option
+{
+  background-color: #61422cd0;
+}
+
+tr
+{
+  width: 1px;
+  animation-duration: 250ms;
+  animation-name: range-color;
+}
+
+td
+{
+  width: inherit;
+}
+
+td input, td select
+{
+  width: 100%;
 }
 
 @keyframes hover-color
 {
   from
   {
-    background-color: #faefe1;
+    background-color: transparent;
   }
   to
   {
-    background-color: #B35410;
+    background-color: #61422cd0;
+    color: #faefe1;
+  }
+}
+@keyframes range-color
+{
+  from
+  {
+    background-color: #61422cd0;
+    color: #faefe1;
+    /*background-color: #B35410;*/
+  }
+  to
+  {
+    background-color: transparent;
   }
 }
 
 input:focus
 {
   outline: none;
+}
+
+option
+{
+  width: 100%;
+}
+
+#option
+{
+  display: none;
 }
 
 input[type=number]::-webkit-inner-spin-button,
