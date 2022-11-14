@@ -1,3 +1,7 @@
+a
+{
+    text-decoration: none;
+}
 html, body, header, footer
 {
     margin: 0px;
@@ -35,13 +39,22 @@ header
     position: sticky;    
 }
 
-.menu h1
+header a h1
 {
     font-size: 2.5em;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    color: #EA975B;
     margin: 1%;
     margin-bottom: 0;
     text-shadow: 4px 1px 4px #E66C14;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 }
 
 
@@ -87,27 +100,14 @@ td label
     display: none;
 }
 
-/*.galeria
+@media only screen and (max-width: 700px)
 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 1%;
+    nav
+    {
+        display: none;
+    }
+    
 }
-
-.foto
-{
-    width: 33%;
-    margin: .2em;
-}
-
-.foto img
-{
-    width: 100%;
-    object-fit: cover;
-    object-position: 80% 100%;
-}*/
-
 /*
     Paleta colores
     #E66C14
