@@ -1,0 +1,51 @@
+div
+{
+    text-align: center;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+}
+
+.grid a
+{
+    margin: 10px;
+}
+
+.foto
+{
+    text-align: center;
+    width: 100%;
+}
+
+.foto
+{
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width:100%;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
