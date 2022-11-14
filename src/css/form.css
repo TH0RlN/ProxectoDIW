@@ -6,15 +6,20 @@
   grid-auto-flow: row;
 }
 
+form h1
+{
+  text-align: center;
+}
+
 form
 {
-  border-radius: 5px;
-  box-shadow: 0px 0px 50px 4px rgba(97,66,44,0.10);
   grid-column: 2;
 }
 
 .form
 {
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 4px rgba(97,66,44,0.10);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -29,6 +34,8 @@ input, select
 
 table
 {
+  border: 1px solid #61422cd0;
+  border-top: none;
   background-color: transparent;
   border-spacing: 0px;
   width: 100%;
@@ -47,21 +54,23 @@ tr:hover input, tr:hover select
   color: #faefe1;
 }
 
-option
-{
-  background-color: #61422cd0;
-}
-
 tr
 {
   width: 1px;
   animation-duration: 250ms;
   animation-name: range-color;
+  box-shadow: inset 0px 0px 50px -30px rgba(0,0,0,0.5);
 }
 
 td
 {
   width: inherit;
+  border-top: 1px solid #61422cd0;
+}
+
+td.right
+{
+  width: 75%;
 }
 
 td input, td select
@@ -100,9 +109,16 @@ input:focus
   outline: none;
 }
 
+select:focus
+{
+  outline: none;
+}
+
 option
 {
   width: 100%;
+  background-color: #61422cd0;
+  color: #faefe1;
 }
 
 #option
@@ -123,6 +139,10 @@ input[type=submit]
   background-color: transparent;
 }
 
+input[type=date]
+{
+  text-align: center;
+}
 
 fieldset
 {

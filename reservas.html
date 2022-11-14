@@ -23,43 +23,42 @@
         
     </header>
     <body>
-        
-        <h2>Reservas</h2>
         <div id="container">
             <form action="./src/php/reservas.php" method="post">
+                <h1>Haz tu reserva</h1>
                 <div class="form">
                     <table cellspacing="2" cellpadding="5">
                         <tr>
                             <td><label for="nombre">Nombre: </label></td>
-                            <td><input type="text" name="nombre" id="nombre"></td>
+                            <td class="right"><input type="text" name="nombre" id="nombre"></td>
                         </tr>
                         <tr>
                             <td><label for="apellido">Apellido/s: </label></td>
-                            <td><input type="text" name="apellido" id="apellido"></td>
+                            <td class="right"><input type="text" name="apellido" id="apellido"></td>
                         </tr>
                         <tr>
                             <td><label for="email">Email: </label></td>
-                            <td><input type="email" name="email" id="email"></td>
+                            <td class="right"><input type="email" name="email" id="email"></td>
                         </tr>
                         <tr>
                             <td><label for="telf">Teléfono: </label></td>
-                            <td><input type="tel" name="telf" id="telf" pattern="[0-9]{9}"></td>
+                            <td class="right"><input type="tel" name="telf" id="telf" pattern="[0-9]{9}"></td>
                         </tr>
                         <tr>
                             <td><label for="edate">Fecha entrada: </label></td>
-                            <td><input type="date" name="edate" id="edate" placeholder="Fecha entrada"></td>
+                            <td class="right"><input type="date" name="edate" id="edate" placeholder="Fecha entrada"></td>
                         </tr>
                         <tr>
                             <td><label for="sdate">Fecha salida: </label></td>
-                            <td><input type="date" name="sdate" id="sdate"></td>
+                            <td class="right"><input type="date" name="sdate" id="sdate"></td>
                         </tr>
                         <tr>
                             <td><label for="npers">Nº personas: </label></td>
-                        <td><input type="number" min="1" max="5" name="npers" id="npers"></td>
+                        <td class="right"><input type="number" min="1" max="5" name="npers" id="npers"></td>
                     </tr>
                     <tr>
                         <td><label for="tipohab">Tipo de Habitación</label></td>
-                        <td>
+                        <td class="right">
                             <select name="tipohab" id="tipohab">
                                 <option value="basic">Básica</option>
                                 <option value="couple">Lovers</option>
