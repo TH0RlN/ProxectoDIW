@@ -18,12 +18,6 @@ div
 {
     text-align: center;
     width: 100%;
-}
-
-.foto
-{
-    text-align: center;
-    width: 100%;
     object-fit: cover;
     object-position: 80% 100%;
 }
