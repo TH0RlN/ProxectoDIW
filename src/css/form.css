@@ -26,6 +26,12 @@ form
     padding: 0px;
 }
 
+label
+{
+  display: block;
+  width: 100%;
+}
+
 input, select
 {
   border: none;

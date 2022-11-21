@@ -15,3 +15,9 @@ document.getElementById('button').addEventListener('click', evt=>
     }
     selected *= -1;
 });
+
+window.addEventListener('resize', evt=>
+{
+    selected = -1;
+    menu.style.display = 'none';
+});

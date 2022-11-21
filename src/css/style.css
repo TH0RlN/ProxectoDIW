@@ -6,7 +6,6 @@ html, body, header, footer
 {
     margin: 0px;
     background-color: #faefe1;
-    white-space: nowrap;
 }
 
 h2, form
@@ -27,8 +26,8 @@ header
     top: 0px;
     margin: 0px;
     background-image: linear-gradient(90deg, rgba(0, 0, 0) 32%, transparent 100%), url("../img/menu.jpeg");
-    background-size: cover;
-    padding: 20px;
+    background-size: auto;
+    padding: 20px 0;
     width: 100%;
 }
 
