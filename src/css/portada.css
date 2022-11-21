@@ -13,7 +13,7 @@ img
 .contained img
 {
     width: 100%;
-    max-height: 600px;
+    max-height: 900px;
     object-fit: contain;
 }
 
@@ -21,7 +21,7 @@ img
 {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-auto-flow: row;
 }
 
