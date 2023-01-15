@@ -165,7 +165,23 @@ td label
         flex-wrap: wrap;
         list-style: none;
     }
-    
+}
+
+.footer
+{
+    font-family: 'Lucida Consoloe', monospace;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: grey;
+    text-align: left;
+    font-size: 10px;
+}
+.footer p
+{
+    margin : 2px;
 }
 /*
     Paleta colores
